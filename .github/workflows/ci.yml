@@ -1,6 +1,6 @@
 name: CI
 
-on: [manual]
+on: [push]
 
 jobs:
   build:
@@ -10,5 +10,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4 
         
-        - name: List files 
-          run: ls -la
+      - name: List files 
+        run: ls -la

@@ -1,5 +1,5 @@
 name: Simple Commands
-on: [manual]
+on: [push]
 
 jobs:
   build:
