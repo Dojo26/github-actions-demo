@@ -41,5 +41,5 @@ jobs:
       - name: Deploy project
         run: |
            echo "Deploying project..."
-           ls _R dist
+           ls -R dist
            echo "Deployment successful!"
